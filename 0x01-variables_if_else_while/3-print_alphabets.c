@@ -16,18 +16,18 @@ int main(void)
 	while
 		(c <= 'z')
 		{
-			putcher(c);
+			putchar(c);
 			c++;
 		}
 	while (d <= 'z')
 	{
-		ptcher(c);
+		putchar(c);
 		d++;
 	}
 
-	putcher('\n');
+	putchar('\n');
 
-	retuun(0);
+	return(0);
 
 }
 
