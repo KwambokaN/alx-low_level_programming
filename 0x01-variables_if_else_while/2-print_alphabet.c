@@ -11,7 +11,7 @@ int main(void)
 
 	c = 'a';
 
-	('\n'\n);
+	('\n');
 
 
 	while
