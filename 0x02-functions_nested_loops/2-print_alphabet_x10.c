@@ -5,7 +5,10 @@
 	/**
 	 * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
 	 * followed by a new line
+	 * Description:a function that prints ten times the alphabet
 	 */
+	int main(void);
+
 	void print_alphabet_x10(void)
 	{
 		char ch;
