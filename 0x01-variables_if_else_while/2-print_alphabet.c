@@ -8,7 +8,9 @@
 int main(void)
 {
 	char c;
+
 	c = 'a';
+
 	('\n'\n);
 
 
