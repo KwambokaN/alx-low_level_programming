@@ -1,20 +1,19 @@
+#include "main.h"
 /**
-* main - check the code.
-*
+* _isupper - checks for uppercase character
+* @c: Variable text
 * Return: Always 0.
 */
-int main(void)
+int _isupper(int c)
 {
-char c;
 
-c = 'A';
+
+	if (c >= 'A' && c <= 'Z')
 {
-printf("%c: %d\n", c, _isupper(c));
+return (1);
 }
-
-c = 'a';
+else
+{
+ return (0);
 }
-printf("%c: %d\n", c, _isupper(c));
-}
-return (0);
 }
