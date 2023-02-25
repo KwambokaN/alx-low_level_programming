@@ -1,4 +1,4 @@
-include "main.h"
+include 'main.h'
 /*
  * stdio for input and output function
  * main-Entry point
@@ -6,7 +6,7 @@ include "main.h"
 /**
  * positive_or_negative -check value if its positive, negative, or zero
  * @n: checks value
- * Return: always return 0 on success
+ *Return: Always 0 (Success)
  */
 void positive_or_negative(int)
 {
