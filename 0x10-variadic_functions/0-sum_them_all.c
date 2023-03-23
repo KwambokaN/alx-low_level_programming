@@ -2,20 +2,19 @@
 #include <stdarg.h>
 
 /**
- * Write a function that returns the sum of all its parameters.
- * Prototype: int sum_them_all
- * If n == 0, return 0
- * begin and end arg with va_start and va_end
- */
-int sum(int arg, ...)
+*sum_them_all - Returns the sum of all its paramters.
+* @n: The number of paramters passed to the function.
+* @...: A variable number of paramters to calculate the sum of.
+* Return: If n == 0 - 0.
+* Otherwise - the sum of all parameters.
+*/
+int sum_them_all(const unsigned int n, ...)
 {
-	int sum;
 	va_list ap;
 
-	va_start(ap, arg);
-	int i = 0, sum = 0;
+	unsigned int i = 0, sum = 0;
 
-	for (i = 0; i < arg; i++)
+	for (i = 0; i < n; i++)
 		sum += va_arg(ap, int);
 
 
