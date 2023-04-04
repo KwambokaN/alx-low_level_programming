@@ -1,3 +1,8 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+
 /**
  * main - check the code
  * 
@@ -24,4 +29,4 @@ int main(void)
     printf("-> %lu elements\n", n);
     free(new);
     return (0);
-}
+}}
