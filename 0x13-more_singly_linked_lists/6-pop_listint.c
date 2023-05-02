@@ -1,4 +1,4 @@
-#inlude "lists.h"
+#include "lists.h"
 
 /**
  * pop_listint - delete the head node of a listint_t linked list.
