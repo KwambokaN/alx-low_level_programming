@@ -6,6 +6,7 @@
  * @head: first element in a linked list.
  * Return: Total sum.
  */
+
 int sum_listint(listint_t *head);
 
 {
