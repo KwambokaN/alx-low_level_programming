@@ -3,7 +3,7 @@
 /**
  * free_listint - a function that frees a listint_t list.
  *
- * @head:free listint_t list.
+ * @head:listint_t list to be freed.
  */
 
 void free_listint(listint_t *head);
