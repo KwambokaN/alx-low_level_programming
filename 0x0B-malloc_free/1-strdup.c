@@ -5,7 +5,7 @@
 #include "main.h"
 
 /**
-* _strdup - duplicate to new memory space location
+* _strdup -  function returns a pointer to a new string which is a duplicate of the string str
 * @str: char
 * Return: 0
 */
